@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.top-bar {
+    background-color: black;
+
+    color: white;
+
+    height: 40px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
