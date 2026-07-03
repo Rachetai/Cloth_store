@@ -1,150 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Shit store</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="top-bar">
-        <div>Бесплатная доставка</div>
-        <div>Никакого возврата</div>
-        <div>Премиальное качество</div>
+      <div>Бесплатная доставка</div>
+      <div>Никакого возврата</div>
+      <div>Премиальное качество</div>
     </div>
 
     <header>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="logo">Shit store</h1>
 
-        <div class="container">
+          <nav>
+            <ul>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Новинки</a></li>
+              <li><a href="#">Мужчинам</a></li>
+              <li><a href="#">Женщинам</a></li>
+              <li><a href="#">Распродажа</a></li>
+              <li><a href="#">О нас</a></li>
+            </ul>
+          </nav>
 
-            <h1 class="logo">Shit store</h1>
-
-            <nav>
-                <ul>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Новинки</a></li>
-                    <li><a href="#">Мужчинам</a></li>
-                    <li><a href="#">Женщинам</a></li>
-                    <li><a href="#">Распродажа</a></li>
-                    <li><a href="#">О нас</a></li>
-                </ul>
-            </nav>
-
-            <div class="header-icons">
-                <span>🔍</span>
-                <span>👤</span>
-                <span>🛍️</span>
-            </div>
-
+          <div class="header-icons">
+            <span>🔍</span>
+            <span>👤</span>
+            <span>🛍️</span>
+          </div>
         </div>
-
+      </div>
     </header>
 
     <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h2>
+              Тупо
+              <br />
+              Дешево
+              <br />
+              Обрыгано
+            </h2>
 
-        <section class="hero">
+            <p class="hero-description">
+              Тупой шмот
+              <br />
+              для дешевой жизни
+              <br />
+              который не жалко обрыгать
+            </p>
 
-            <div class="hero-container">
+            <a href="#" class="hero-button"> Смотреть каталог </a>
 
-                <div class="hero-content">
+            <div class="hero-slider">
+              <span class="active">01</span>
+              <span></span>
+              <span>02</span>
+              <span></span>
+              <span>03</span>
+            </div>
+          </div>
 
-                    <h2>
-                        Тупо
-                        <br>
-                        Дешево
-                        <br>
-                        Обрыгано
-                    </h2>
+          <div class="hero-image">
+            <img src="img/hero.jpg" alt="hero image" />
+          </div>
+        </div>
+      </section>
 
-                    <p class="hero-description">
-                        Тупой шмот
-                        <br>
-                        для дешевой жизни
-                        <br>
-                        который не жалко обрыгать
-                    </p>
+      <section class="categories">
+        <div class="container">
+          <div class="categories-grid">
+            <a href="#" class="category-card">
+              <img src="images/tshirt.svg" alt="Футболки" />
+              <p>Футболки</p>
+            </a>
 
-                    <a href="#" class="hero-button">
-                        Смотреть каталог
-                    </a>
+            <a href="#" class="category-card">
+              <img src="images/hoodie.svg" alt="Худи" />
+              <p>Худи</p>
+            </a>
 
-                    <div class="hero-slider">
-                        <span class="active">01</span>
-                        <span></span>
-                        <span>02</span>
-                        <span></span>
-                        <span>03</span>
-                    </div>
+            <a href="#" class="category-card">
+              <img src="images/sweatshirt.svg" alt="Свитшоты" />
+              <p>Свитшоты</p>
+            </a>
 
-                </div>
+            <a href="#" class="category-card">
+              <img src="images/jacket.svg" alt="Верхняя одежда" />
+              <p>Верхняя одежда</p>
+            </a>
 
-                <div class="hero-image">
-                    <img src="img/hero.jpg" alt="hero image">
-                </div>
+            <a href="#" class="category-card">
+              <img src="images/pants.svg" alt="Штаны" />
+              <p>Штаны</p>
+            </a>
 
+            <a href="#" class="category-card">
+              <img src="images/shorts.svg" alt="Шорты" />
+              <p>Шорты</p>
+            </a>
+
+            <a href="#" class="category-card">
+              <img src="images/bag.svg" alt="Аксессуары" />
+              <p>Аксессуары</p>
+            </a>
+
+            <a href="#" class="category-card">
+              <img src="images/cap.svg" alt="Головные уборы" />
+              <p>Головные уборы</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <div class="section-header">
+            <h2>Новинки</h2>
+
+            <a href="#"> Смотреть всё → </a>
+          </div>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <span class="product-badge">НОВОЕ</span>
+
+              <button class="favorite-btn">♡</button>
+
+              <a href="#">
+                <img src="images/tshirt.png" alt="Футболка" />
+              </a>
+
+              <h3 class="product-title">
+                <a href="#">Футболка базовая</a>
+              </h3>
+
+              <p class="price">2 990 ₽</p>
+
+              <div class="product-colors">
+                <span class="black"></span>
+                <span class="gray"></span>
+                <span class="white"></span>
+              </div>
             </div>
 
-        </section>
+            <div class="product-card">
+              <span class="product-badge">НОВОЕ</span>
 
-        <section class="categories">
+              <button class="favorite-btn">♡</button>
 
-            <div class="container">
+              <a href="#">
+                <img src="images/hoodie.png" alt="Худи" />
+              </a>
 
-                <div class="categories-grid">
+              <h3 class="product-title">
+                <a href="#">Худи оверсайз</a>
+              </h3>
 
-                    <a href="#" class="category-card">
-                        <img src="images/tshirt.svg" alt="Футболки">
-                        <p>Футболки</p>
-                    </a>
+              <p class="price">2 990 ₽</p>
 
-                    <a href="#" class="category-card">
-                        <img src="images/hoodie.svg" alt="Худи">
-                        <p>Худи</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/sweatshirt.svg" alt="Свитшоты">
-                        <p>Свитшоты</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/jacket.svg" alt="Верхняя одежда">
-                        <p>Верхняя одежда</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/pants.svg" alt="Штаны">
-                        <p>Штаны</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/shorts.svg" alt="Шорты">
-                        <p>Шорты</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/bag.svg" alt="Аксессуары">
-                        <p>Аксессуары</p>
-                    </a>
-
-                    <a href="#" class="category-card">
-                        <img src="images/cap.svg" alt="Головные уборы">
-                        <p>Головные уборы</p>
-                    </a>
-
-                </div>
-
+              <div class="product-colors">
+                <span class="black"></span>
+                <span class="gray"></span>
+                <span class="white"></span>
+              </div>
             </div>
 
-        </section>
+            <div class="product-card">
+              <span class="product-badge">НОВОЕ</span>
 
+              <button class="favorite-btn">♡</button>
+
+              <a href="#">
+                <img src="images/pants.png" alt="Брюки" />
+              </a>
+
+              <h3 class="product-title">
+                <a href="#">Брюки прямые</a>
+              </h3>
+
+              <p class="price">2 990 ₽</p>
+
+              <div class="product-colors">
+                <span class="black"></span>
+                <span class="gray"></span>
+                <span class="white"></span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <span class="product-badge">НОВОЕ</span>
+
+              <button class="favorite-btn">♡</button>
+
+              <a href="#">
+                <img src="images/shirt.png" alt="Рубашка" />
+              </a>
+
+              <h3 class="product-title">
+                <a href="#">Рубашка оверсайз</a>
+              </h3>
+
+              <p class="price">2 990 ₽</p>
+
+              <div class="product-colors">
+                <span class="black"></span>
+                <span class="gray"></span>
+                <span class="white"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
-
+  </body>
 </html>
