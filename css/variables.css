@@ -1,0 +1,17 @@
+:root {
+  --color-white: #ffffff;
+  --color-dark-white: #f5f5f5;
+  --color-black: #000000;
+  --color-light-black: #222222;
+  --color-gray: #999999;
+  --color-light-gray: #eaeaea;
+  --color-dark-gray: #555555;
+  --color-hover: #fafafa;
+  --color-border: #e5e5e5;
+  --color-button: #dddddd;
+  --color-footer: #231f23;
+
+  --container-width: 1295px;
+
+  --transition: 0.3s ease;
+}

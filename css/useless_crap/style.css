@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior-y: none;
 }
 
 body {
@@ -62,11 +63,29 @@ body {
   height: 50px;
   background-color: var(--color-black);
   color: var(--color-white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: height 0.3s ease;
+}
+
+.top-bar.scrolled {
+  height: 25px;
 }
 
 header {
   padding: 20px 0;
+  border-bottom: 1px solid var(--color-border);
   background-color: var(--color-white);
+  position: sticky;
+  top: 50px;
+  z-index: 1000;
+  transition: padding 0.3s ease;
+}
+
+header.scrolled {
+  top: 25px;
+  padding: 10px 0;
 }
 
 .header-content {
@@ -79,6 +98,11 @@ header {
   margin: 0;
   font-size: 50px;
   letter-spacing: 5px;
+  transition: font-size 0.3s ease;
+}
+
+header.scrolled .logo {
+  font-size: 25px;
 }
 
 .container {
@@ -153,7 +177,7 @@ nav a {
 
 .hero-button {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 25px;
   padding: 15px 45px;
   background: var(--color-black);
   color: var(--color-white);

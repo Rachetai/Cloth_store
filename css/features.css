@@ -1,0 +1,37 @@
+.features {
+  margin-top: 45px;
+}
+
+.features .container {
+  padding: 45px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.feature img {
+  width: 45px;
+  height: 45px;
+}
+
+.feature h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 595;
+}
+
+.feature p {
+  margin-top: 5px;
+  color: var(--color-dark-gray);
+  font-size: 15px;
+}

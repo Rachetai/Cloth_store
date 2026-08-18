@@ -1,0 +1,36 @@
+.categories {
+  margin: 50px;
+}
+
+.categories-grid {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-light-gray);
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 110px;
+  background: var(--color-dark-white);
+  color: var(--color-black);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.category-card img {
+  width: 45px;
+  height: 45px;
+}
+
+.category-card p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.category-card:hover {
+  background: var(--color-hover);
+}
